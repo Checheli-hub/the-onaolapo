@@ -26,11 +26,25 @@ function Hero() {
       <a href="/episodes" className="conversation-link">
         Join the Conversation <FaArrowRight />
       </a>
-      <div className="hero-image">
-        <img src={noah} alt="Noah's Image" />
-        <img src={gold} alt="Heavenly Gold" />
-      </div>
-      <p className="hero-hosts">Noah & Heavenly Gold / Your hosts</p>
+      
+<div className="hero-image">
+   <div className="hero-image-photos">
+    <img src={noah} alt="Noah's Image" />
+    <img src={gold} alt="Heavenly Gold" />
+  </div>
+  
+  <div className="hero-image-label">
+    Little voices.
+    <br />
+    Lasting change.
+  </div>
+
+  <div className="hero-image-caption">
+    <h4>A father. A daughter. A shared purpose.</h4>
+    <p>Noah & Heavenly-Gold · The Onaolapo Show</p>
+  </div>
+</div>
+
     </section>
   );
 }
