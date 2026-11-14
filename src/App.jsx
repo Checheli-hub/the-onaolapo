@@ -7,6 +7,8 @@ import GetInvolved from "./pages/GetInvolved";
 import Impact from "./pages/Impact";
 import Support from "./pages/Support";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -18,8 +20,10 @@ function App() {
         <Route path="/episodes" element={<Episodes />} />
         <Route path="/getInvolved" element={<GetInvolved />} />
         <Route path="/impact" element={<Impact />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/support" element={<Support />} />
       </Routes>
+      <Footer />
     </>
   );
 }

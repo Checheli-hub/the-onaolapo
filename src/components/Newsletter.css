@@ -1,0 +1,100 @@
+.news-letter {
+  background-color: var(--color-secondary);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.news-letter > div {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.news-letter > div > p:first-child {
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+  margin-bottom: 1.5rem;
+}
+
+.news-letter h2 {
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: 3.2rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.news-letter h2 + p {
+  color: var(--color-text);
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.news-letter form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.news-letter input {
+  width: 100%;
+  padding: 1.6rem;
+  border: 1px solid rgba(27, 58, 75, 0.2);
+  border-radius: 5rem;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+.news-letter input:focus {
+  border-color: var(--color-primary);
+}
+
+.news-letter button {
+  width: 100%;
+  padding: 1.6rem 2rem;
+  border: none;
+  border-radius: 5rem;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.news-letter button:hover {
+  background-color: #254e63;
+}
+
+.success-message {
+  margin-top: 1.5rem;
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .news-letter {
+    padding: 7rem 3rem;
+  }
+
+  .news-letter h2 {
+    font-size: 4.5rem;
+  }
+
+  .news-letter form {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .news-letter input {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .news-letter button {
+    width: auto;
+    white-space: nowrap;
+  }
+}

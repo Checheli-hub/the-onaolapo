@@ -16,6 +16,7 @@ const useVideoPlayer = () => {
   const handleVideoEnded = () => {
     setIsPlaying(false);
   };
+  
   const handleVideoToggle = async () => {
     if (!videoRef.current) return;
 

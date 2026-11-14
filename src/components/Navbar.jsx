@@ -39,7 +39,10 @@ function Navbar() {
               <NavLink to="/impact">Impact</NavLink>
             </li>
             <li>
-              <NavLink to="/support">Support</NavLink>
+              <NavLink to="/contact">Contact Us</NavLink>
+            </li>
+            <li>
+              <NavLink to="/support">Support Our mission</NavLink>
             </li>
           </ul>
         </nav>

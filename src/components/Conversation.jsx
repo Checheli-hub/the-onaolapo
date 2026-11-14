@@ -1,7 +1,7 @@
 import React from "react";
-import "./Conversation.css";
 import VideoPlayButton from "../reusable/VideoPlayButton";
 import useVideoPlayer from "../hooks/useVideoPlayer";
+import "./Conversation.css";
 
 function Conversation({ videoSrc }) {
   const {

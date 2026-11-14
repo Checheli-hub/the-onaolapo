@@ -1,0 +1,47 @@
+.everyones-place {
+  background-color: #eaf0e6;
+  padding: 2rem;
+}
+
+.place-for-all {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  color: var(--color-green);
+}
+.everyones-place-heading {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.everyone-card {
+  width: 100%;
+  padding: 2.5rem 2rem;
+  margin-top: 2rem;
+  border: 1px solid rgba(27, 58, 75, 0.2);
+  border-radius: 1.8rem;
+  background-color: var(--color-surface);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.everyone-card h3 {
+  color: var(--color-primary);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+.everyone-card p:first-of-type {
+  color: var(--color-text-light);
+  font-size: 1.5rem;
+  line-height: 1.7;
+  max-width: 100%;
+}
+
+.everyone-card a {
+  color: var(--color-green);
+  font-weight: bold;
+  font-size: 1.3rem;
+}
